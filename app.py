@@ -7,7 +7,7 @@ def load_model(model_path = "./Modelo/model_catr.cbm"):
     model.load_model(model_path)
     return model
 
-model = load_model("C:/Users/Thiago/Desktop/Potifolio/Projeto calculadora de imoveis/Modelo/model_catr.cbm")
+model = load_model("./Modelo/model_catr.cbm")
 
 st.title("Calculadora de Alugueis")
 st.subheader("Entre com as caracteristicas do seu imovel")
