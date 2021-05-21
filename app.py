@@ -2,7 +2,7 @@ import streamlit as st
 from catboost import CatBoostRegressor
 
 @st.cache
-def load_model(model_path = "./Model/model_catr.cbm":
+def load_model(model_path = "./Model/model_catr.cbm"):
     model = CatBoostRegressor()
     model.load_model(model_path)
     return model
