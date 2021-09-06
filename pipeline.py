@@ -7,7 +7,6 @@ Created on Thu Sep  2 16:21:12 2021
 
 import os
 
-os.system("Coletando-dados-calculadora.py")
-os.system("Tratando os dados.py")
+os.system("Coletando-dados.py")
+os.system("Tratando-os-dados.py")
 os.system("Limpando-outliers.py")
-#os.system("Treinando-Modelo ")
